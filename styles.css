@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    text-align: center;
+    border:1px solid transparent ;
+}
+.logo img{
+    box-shadow: 10px 10px 12px grey, 14px 14px 18px orange;
+    height: 60px;
+}
+#start{
+    border: 2px solid white;
+    width: fit-content;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#welcome{
+border-bottom: 7px solid orange;
+border-bottom-left-radius:30px ;
+}
+.rate{
+text-align: justify;
+}
+.service{
+    padding-top: 40px;
+    border-bottom: 6px solid orange;
+    width: fit-content;
+    margin:auto ;
+}
+.boot{
+    border: 2px solid transparent;
+    text-align: center;
+    box-shadow: 10px 10px 12px gray, 14px 14px 18px orange;
+}
+.boot img{
+    height: 250px;
+}
+.boot h2{
+    padding: 20px;
+}
+.one{
+    margin-top: 100px;
+}
+.digit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.digit>div{
+    padding-left: 10px;
+}
+.boot{
+    padding-top: 13px;
+}
+.tone{
+    margin-top: 70px;
+}
+.cloop{
+    height: 500px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius:80px;
+    border-bottom-left-radius: 80px;
+}
+#contact{
+    background-image: url('images/contact_bg.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.back{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5));
+    padding: 20px;
+}
+.botton{
+    display: flex; 
+    justify-content: end;
+}
+.footer{
+    background:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.4)),url('images/s2.png');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px,0px,0px,0px;
+}
